@@ -1,3 +1,12 @@
+"""
+Aggregated validation scoring utilities.
+
+Scoring formula:
+- Each rule contributes a weight based on severity
+- Final score is computed as:
+  100 - (failed_weight / total_weight) * 100
+"""
+
 from typing import Dict
 
 from validator.rules import Severity
