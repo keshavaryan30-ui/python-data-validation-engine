@@ -1,2 +1,7 @@
-# python-data-validation-engine
-A config-driven data validation framework for validating datasets (CSV / Pandas DataFrames) with rule definitions, severity levels, and aggregated reporting.
+# Python Data Validation Engine
+
+A config-driven data validation framework for validating datasets
+using composable rules and aggregated reporting.
+
+## Status
+Initial scaffolding. Core validation logic to be added.
