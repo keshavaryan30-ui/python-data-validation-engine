@@ -1,0 +1,3 @@
+rules:
+  - name: RowCountRule
+    severity: HIGH
